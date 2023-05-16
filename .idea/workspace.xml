@@ -55,12 +55,6 @@
       <change afterPath="$PROJECT_DIR$/../customerapplication/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../customerapplication/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../designPatterns/designPatterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../movie/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../movie/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../movie/.idea/jarRepositories.xml" afterDir="false" />
@@ -78,6 +72,7 @@
       <change afterPath="$PROJECT_DIR$/../spring-app1/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-app1/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-app1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +88,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -242,7 +237,7 @@
       <workItem from="1683975025237" duration="7685000" />
       <workItem from="1683984830398" duration="1819000" />
       <workItem from="1684269466503" duration="16000" />
-      <workItem from="1684272256270" duration="351000" />
+      <workItem from="1684272256270" duration="1552000" />
     </task>
     <servers />
   </component>
