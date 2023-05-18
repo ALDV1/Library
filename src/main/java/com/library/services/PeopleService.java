@@ -25,31 +25,31 @@ public class PeopleService {
         this.peopleRepository = peopleRepository;
     }
 
-    public List<Person> findAll(){
+    public List<Person> findAll() {
         return peopleRepository.findAll();
     }
 
-    public Person findOne(int id){
+    public Person findOne(int id) {
         return peopleRepository.findById(id).orElse(null);
     }
 
     @Transactional
-    public void save(Person person){
+    public void save(Person person) {
         peopleRepository.save(person);
     }
 
     @Transactional
-    public void update(Person updatedPerson, int id){
+    public void update(Person updatedPerson, int id) {
         updatedPerson.setId(id);
         peopleRepository.save(updatedPerson);
     }
 
     @Transactional
-    public void delete(int id){
+    public void delete(int id) {
         peopleRepository.deleteById(id);
     }
 
-    public Optional<Person> getPersonByFullName(String fullName){
+    public Optional<Person> getPersonByFullName(String fullName) {
         return peopleRepository.findByFullName(fullName);
     }
 
@@ -66,8 +66,7 @@ public class PeopleService {
             });
 
             return person.get().getBooks();
-        }
-        else {
+        } else {
             return Collections.emptyList();
         }
     }

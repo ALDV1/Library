@@ -36,7 +36,7 @@ public class Book {
     private int id;
 
     @NotEmpty(message = "title column cannot be empty")
-    @Size(min = 2, max = 250,message = "title must not exceed 250 characters")
+    @Size(min = 2, max = 250, message = "title must not exceed 250 characters")
     @Column(name = "title")
     private String title;
 
@@ -60,7 +60,7 @@ public class Book {
     @Transient
     private boolean expired;
 
-    public Book(String title, String author, int yearOfProduction){
+    public Book(String title, String author, int yearOfProduction) {
         this.title = title;
         this.author = author;
         this.yearOfProduction = yearOfProduction;
